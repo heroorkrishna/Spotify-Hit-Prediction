@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<h1>Hit Predictor</h1>
+</center>
+<br>
+<center>
+<h2>Is The Song A Hit or A Flop?</h2>
+<p>Pick a song that's available on Spotify, and we'll tell you if its a hit or not!</p>
+</center>
+<br>
+
+<form action="/" method="POST">
+    <div style="text-align: center;">
+        Input a song title and the artist name:
+        <br>
+        <br>
+        <center>
+          <input align = "center" type="text" name="song_title" autofocus="autofocus" value="{{x_input}}" maxlength="500" id="rcorners2">
+          <input align = "center" type="text" name="artist_name" autofocus="autofocus" value="{{y_input}}" maxlength="500" id="rcorners2">
+        </center>
+    <br>
+    <!-- Submit button -->
+    <center>
+    <input align="center" type="submit" value="Submit" method="get" id="rcorners1">
+  </center>
+    <br>
+
+  </form>
+
+</body>
+</html>
